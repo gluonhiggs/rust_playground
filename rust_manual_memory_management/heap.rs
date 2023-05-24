@@ -11,7 +11,7 @@ create the stack_only function that takes a parameter and allocates a variable o
 */
 fn stack_only(b: i32) {
     let c: i32 = 3;
-    stack_and_heap;
+    stack_and_heap
 }
 /* 
 create the stack_and_heap function that allocates a variable on a stack and another variable on a heap.
