@@ -19,5 +19,7 @@ create the stack_and_heap function that allocates a variable on a stack and anot
 
 fn stack_and_heap() {
     let d: i32 = 4;
-    let e: Box<i32> = Box::new(5);
+    //  allocate a new variable on the heap using raw pointers
+    let e: *mut i32 = Box::new(5);
+    
 }
