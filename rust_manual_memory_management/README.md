@@ -22,3 +22,11 @@ A heap has the following characteristics:
 - It has no size limit.
 - It is accessible globally in the program.
 - Heap allocations are expensive and should be used sparingly.
+
+
+### Smartpointer
+
+- A smart pointer is a class that wraps a raw pointer, to manage the lifetime of the pointer.
+- The smart pointer automatically deletes the object when the smart pointer goes out of scope.
+
+  
